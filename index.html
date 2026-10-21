@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+<style>
+body { font-family: Arial; background: #eee; }
+nav { background: navy; padding: 15px; }
+nav a { color: white; margin: 15px; }
+table, th, td { border: 1px solid black; padding: 8px; }
+form { background: white; padding: 20px; width: 250px; }
+input, select, button { margin: 5px; padding: 8px; }
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#students">Students</a>
+<a href="#register">Register</a>
+</nav>
+
+<h2 id="home">Student Admission Portal</h2>
+
+<h3 id="students">Student Details</h3>
+<table>
+<tr><th>Roll No</th><th>Name</th><th>Course</th></tr>
+<tr><td>1</td><td>Rahul</td><td>BCA</td></tr>
+<tr><td>2</td><td>Priya</td><td>BSc</td></tr>
+</table>
+
+<h3 id="register">Registration Form</h3>
+<form>
+<input type="text" placeholder="Student Name" required>
+<input type="email" placeholder="Email" required>
+<input type="date" required>
+<select required>
+<option value="">Select Course</option>
+<option>BCA</option>
+<option>BSc</option>
+<option>BCom</option>
+</select>
+<button type="submit">Register</button>
+</form>
+
+</body>
+</html>
